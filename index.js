@@ -34,5 +34,11 @@ return tempItem;
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  function placeOrder(cardNumber) {
+  	if (!card) {
+  		return `Sorry, we don't have a credit card on file for you..`
+  	} else {
+  		creditCard.shift();
+  	}
+  }
 }
