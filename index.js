@@ -24,10 +24,10 @@ function total() {
 function removeFromCart(item) {
   let tempItem = [];
 
-while (item >= 0) {
-  if (!item) {
-    return `That item is not in your cart.`;
-  }
+  while (item >= 0) {
+    if (!item) {
+      return `That item is not in your cart.`;
+    }
   tempItem.push(item.name)
 }
 return tempItem;
