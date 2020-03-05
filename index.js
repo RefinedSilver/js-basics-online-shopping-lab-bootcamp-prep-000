@@ -22,7 +22,16 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  let tempItem = [];
+
+while (item >= 0) {
+  if (!item) {
+    return `That item is not in your cart.`;
+  }
+  tempItem.push(item.name)
+}
+return tempItem;
+}
 }
 
 function placeOrder(cardNumber) {
