@@ -34,11 +34,9 @@ return tempItem;
 }
 
 function placeOrder(cardNumber) {
-  function placeOrder(cardNumber) {
-  	if (!card) {
-  		return `Sorry, we don't have a credit card on file for you..`
-  	} else {
-  		creditCard.shift();
-  	}
+  if (!card) {
+    return `Sorry, we don't have a credit card on file for you..`
+  } else {
+    creditCard.shift();
   }
 }
