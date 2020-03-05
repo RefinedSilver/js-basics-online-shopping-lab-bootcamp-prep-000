@@ -32,7 +32,6 @@ while (item >= 0) {
 }
 return tempItem;
 }
-}
 
 function placeOrder(cardNumber) {
   // write your code here
